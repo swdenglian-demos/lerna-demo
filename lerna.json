@@ -1,8 +1,13 @@
 {
   "lerna": "2.11.0",
-  "npmClient":"yarn",
+  "npmClient": "npm",
   "packages": [
     "packages/*"
   ],
+  "command": {
+    "publish": {
+      "push": false
+    }
+  },
   "version": "independent"
 }
