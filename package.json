@@ -1,5 +1,8 @@
 {
-	"devDependencies": {
-		"lerna": "^2.11.0"
-	}
+  "scripts": {
+    "p2-run": "lerna run --scope @rcts/swdenglian-demo-p2 run"
+  },
+  "devDependencies": {
+    "lerna": "^2.11.0"
+  }
 }

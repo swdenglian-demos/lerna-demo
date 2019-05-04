@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn publish --tag latest --new-version 1.0.1
+
+PATH: 
+  /Users/denglian/work/swdenglian-demos/lerna-demo/packages/p1/node_modules/.bin:/Users/denglian/work/swdenglian-demos/lerna-demo/packages/node_modules/.bin:/Users/denglian/work/swdenglian-demos/lerna-demo/node_modules/.bin:/Users/denglian/work/swdenglian-demos/node_modules/.bin:/Users/denglian/work/node_modules/.bin:/Users/denglian/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  11.0.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "p1",
+    "version": "1.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.npmjs.org/p1: You do not have permission to publish "p1". Are you logged in as the correct user?
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:65019:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:132430:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:133413:10)
+      at Request.emit (events.js:182:13)
+      at Gunzip.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:133333:12)
+      at Object.onceWrapper (events.js:273:13)
+      at Gunzip.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process.internalTickCallback (internal/process/next_tick.js:72:19)

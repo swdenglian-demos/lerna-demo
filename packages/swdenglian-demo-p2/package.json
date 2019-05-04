@@ -1,5 +1,5 @@
 {
-  "name": "p2",
+  "name": "@rcts/swdenglian-demo-p2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "p1": "^1.0.1"
+    "@rcts/swdenglian-demo-p1": "^1.0.1"
   }
 }
