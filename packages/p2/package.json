@@ -1,0 +1,14 @@
+{
+  "name": "p2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "p1": "^1.0.1"
+  }
+}
