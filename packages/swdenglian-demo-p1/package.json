@@ -1,6 +1,7 @@
 {
   "name": "@rcts/swdenglian-demo-p1",
-  "version": "1.0.6",
+  "private": false,
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
